@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.top {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-bar {
+    color: #000;
+    background-color: #fff;
+    padding: 8px 16px !important;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    width: 100%;
+    overflow: hidden;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar-item {
+    white-space: normal;
+    padding: 8px 16px !important;
+    width: auto;
+    border: none;
+    outline: 0;
+    user-select: none;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    float: left;
+}
+
+.bar-item:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+b,
+strong {
+    font-weight: bolder;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+/* .white-text-bar {
+    padding: 8px 16px;
+} */
+
+.main-container {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+header {
+    display: block;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.display-center {
+    margin-top: 16px;
+    text-align: center !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.white-text {
+    color: #fff;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.BR-text {
+    color: #fff;
+    background-color: #000;
+    padding: 8px 16px;
+    display: inline-block;
+    opacity: 0.75;
+}
+
+.Architects-text {
+    color: #f1f1f1;
+    margin-left: 10px;
+    letter-spacing: 4px;
+}
+
+.content {
+    max-width: 1564px;
+    padding: 8px 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important;
+    padding: 0.01em 16px;
+}
+
+.border {
+    border-color: #f1f1f1;
+    padding: 16px 0px;
+    margin: 10px 0px;
+    border-bottom: 1px solid #ccc;
+    border-color: #f1f1f1 !important;
+}
+
+/* .line {
+    opacity: 0.60;
+} */
+
+h3 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+    display: block;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+}
+
+.opacity {
+    opacity: 0.60;
+}
+
+.row {
+    padding: 0 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .main-col {
+    display: flex;
+} */
+
+.col {
+    padding: 0 8px;
+    width: 24.99999%;
+    margin-bottom: 16px;
+    /* float: left; */
+}
+
+.display-container {
+    position: relative;
+}
+
+.top-left {
+    color: #fff;
+    background-color: #000;
+    padding: 8px 16px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.border-bottom {
+    border-color: #f1f1f1;
+    padding: 16px 0px;
+    margin: 10px 0px;
+    border-bottom: 1px solid #ccc;
+    border-color: #f1f1f1 !important;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.bottom-row {
+    filter: grayscale(75%);
+    padding: 0 8px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.btn {
+    color: #000;
+    background-color: #f1f1f1;
+    display: block;
+    width: 100%;
+    user-select: none;
+    border: none;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+button {
+    text-transform: none;
+    font: inherit;
+    margin: 0;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.name {
+    border: 1px solid #ccc;
+    padding: 8px;
+    display: block;
+    width: 100%;
+}
+
+input {
+    overflow: visible;
+    font: inherit;
+    margin: 0;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+}
+
+.mail {
+    margin: 16px 0px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    display: block;
+    width: 100%;
+    overflow: visible;
+    font: inherit;
+}
+
+i {
+    font-style: italic;
+}
+
+.container-1 {
+    padding: 0.01em 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.container-2 {
+    padding: 0.15px 16px;
+}
+
+.IMAGE {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.center {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+
+footer {
+    display: block;
+}
+
+a {
+    color: inherit;
+    background-color: transparent;
+}
+
+.btn-1 {
+    color: #fff;
+    background-color: #000;
+    margin: 16px 0px;
+    user-select: none;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.btn-1:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.text-green:hover {
+    color: #4CAF50 !important;
+}
+
+@media(max-width:992px) {
+    .col {
+        width: 50%;
+    }
+}
+
+@media (max-width:601px) {
+    .right-bar {
+        display: none;
+    }
+
+    .Architects-text {
+        display: none;
+    }
+
+    .col {
+        width: 100%;
+    }
+}
